@@ -28,7 +28,7 @@ samples/*
 !samples/lstm_sample.mid
 !samples/evaluation.png
 !samples/train_val_loss_plot.png
-
+!samples/banner.png
 # OS-specific
 .DS_Store
 Thumbs.db
