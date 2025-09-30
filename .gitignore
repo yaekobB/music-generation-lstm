@@ -1,0 +1,34 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+
+# Data (too large, provide README.md instead)
+data/*
+
+# Allow dataset instructions
+!data/README.md
+
+# Models — ignore retrained ones, keep one default checkpoint
+models/*
+!models/lstm_nottingham.pt
+
+# Samples — ignore mass outputs, keep a few demos
+samples/*
+!samples/lstm_sample.mid
+!samples/evaluation.png
+!samples/train_val_loss_plot.png
+
+# OS-specific
+.DS_Store
+Thumbs.db
