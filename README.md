@@ -1,6 +1,7 @@
 <p align="center">
   <img src="samples/banner.png" alt="Music Generation with LSTM Banner" width="800"/>
 </p>
+
 # 🎶 Music Generation with LSTM (Nottingham Dataset)
 
 This project implements an **LSTM-based symbolic music generation system** trained on the [Nottingham Music Dataset](https://www.kaggle.com/datasets/eftimiepetre/nottingham-music).  
