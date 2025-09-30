@@ -4,6 +4,10 @@
 
 # 🎶 Music Generation with LSTM (Nottingham Dataset)
 
+![Python](https://img.shields.io/badge/python-3.9+-blue.svg)
+![PyTorch](https://img.shields.io/badge/pytorch-2.1+-ee4c2c.svg)
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+
 This project implements an **LSTM-based symbolic music generation system** trained on the [Nottingham Music Dataset](https://www.kaggle.com/datasets/eftimiepetre/nottingham-music).  
 It demonstrates an end-to-end workflow: **data preparation → model training → evaluation → autoregressive music generation → MIDI export**.  
 The final system generates polyphonic piano-roll sequences and exports them as MIDI files for playback in DAWs or sheet-music editors like MuseScore.
@@ -39,7 +43,7 @@ music-generation-lstm/
 ## ⚙️ Installation
 Clone and install dependencies:
 ```bash
-git clone https://github.com/your-username/music-generation-lstm.git
+git clone https://github.com/yaekobB/music-generation-lstm.git
 cd music-generation-lstm
 pip install -r requirements.txt
 ```
