@@ -1,4 +1,7 @@
 # 🎶 Music Generation with LSTM (Nottingham Dataset)
+<p align="center">
+  <img src="samples/banner.png" alt="Music Generation with LSTM Banner" width="800"/>
+</p>
 
 This project implements an **LSTM-based symbolic music generation system** trained on the [Nottingham Music Dataset](https://www.kaggle.com/datasets/eftimiepetre/nottingham-music).  
 It demonstrates an end-to-end workflow: **data preparation → model training → evaluation → autoregressive music generation → MIDI export**.  
@@ -92,7 +95,7 @@ You’ll get:
 See included demo files in `samples/`:  
 - 🎵 `lstm_sample.mid` → Generated music example  
 - 📊 `evaluation.png` → Pitch distribution comparison  
-- 📉 `loss_curve.png` → Training/validation loss curve  
+- 📉 `train_val_loss_.png` → Training/validation loss curve /  
 
 ---
 
